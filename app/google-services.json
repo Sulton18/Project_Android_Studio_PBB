@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1053916257849",
+    "firebase_url": "https://bismillah-7e768.firebaseio.com",
+    "project_id": "bismillah-7e768",
+    "storage_bucket": "bismillah-7e768.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053916257849:android:d29deac09f4cdbef4cf7e8",
+        "android_client_info": {
+          "package_name": "com.example.bismillah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053916257849-ff286r5arrucbhkkdj22l5i9qjl3jee5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bismillah",
+            "certificate_hash": "256ec70928c8301c277bc70d15e68ed9120e7f94"
+          }
+        },
+        {
+          "client_id": "1053916257849-g4cfcn6hic7l8v6788vc7qoa56uhd3ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMTs60aIVWFYFNM7AMR4Z6-EtrPs4G1Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053916257849-g4cfcn6hic7l8v6788vc7qoa56uhd3ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
