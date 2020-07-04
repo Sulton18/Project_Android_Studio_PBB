@@ -1,1 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bismillah">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegistrasiActivity"></activity>
+        <activity android:name=".riwayat_konten" />
+        <activity android:name=".Smk12Tmesin" />
+        <activity android:name=".Smk12Tkj" />
+        <activity android:name=".Smk12Tei" />
+        <activity android:name=".Smk12Matematika" />
+        <activity android:name=".Smk12Mulmed" />
+        <activity android:name=".Smk12BhsIndo" />
+        <activity android:name=".Smk12Akuntansi" />
+        <activity android:name=".Smk11Tkj" />
+        <activity android:name=".Smk11Tei" />
+        <activity android:name=".Smk11Matematika" />
+        <activity android:name=".Smk11Mulmed" />
+        <activity android:name=".Smk11Akuntansi" />
+        <activity android:name=".Smk11Tmesin" />
+        <activity android:name=".Smk11BhsIndo" />
+        <activity android:name=".Smk10Tmesin" />
+        <activity android:name=".Smk10Tei" />
+        <activity android:name=".Smk10Mulmed" />
+        <activity android:name=".Smk10Matematika" />
+        <activity android:name=".Smk10Tkj" />
+        <activity android:name=".Smk10BhsIndo" />
+        <activity android:name=".Smk10Akuntansi" />
+        <activity android:name=".Sma12Pah" />
+        <activity android:name=".Sma12Pab" />
+        <activity android:name=".Sma12Matematika" />
+        <activity android:name=".Sma12Kimia" />
+        <activity android:name=".Sma12Geografi" />
+        <activity android:name=".Sma12Fisika" />
+        <activity android:name=".Sma12Ekonomi" />
+        <activity android:name=".Sma12Biologi" />
+        <activity android:name=".Sma12BhsJawa" />
+        <activity android:name=".Sma12BhsInggris" />
+        <activity android:name=".Sma12BhsIndo" />
+        <activity android:name=".Sma12Akuntasi" />
+        <activity android:name=".Sma11Pah" />
+        <activity android:name=".Sma11Geografi" />
+        <activity android:name=".Sma11BhsJawa" />
+        <activity android:name=".Sma11Pab" />
+        <activity android:name=".Sma11Fisika" />
+        <activity android:name=".Sma11BhsInggris" />
+        <activity android:name=".Sma11Matematika" />
+        <activity android:name=".Sma11Ekonomi" />
+        <activity android:name=".Sma11BhsIndo" />
+        <activity android:name=".Sma11Kimia" />
+        <activity android:name=".Sma11Biologi" />
+        <activity android:name=".Sma11Akuntansi" />
+        <activity android:name=".Sma10Pah" />
+        <activity android:name=".Sma10Pab" />
+        <activity android:name=".Sma10Matematika" />
+        <activity android:name=".Sma10Kimia" />
+        <activity android:name=".Sma10Geografi" />
+        <activity android:name=".Sma10Fisika" />
+        <activity android:name=".Sma10Ekonomi" />
+        <activity android:name=".Sma10Biologi" />
+        <activity android:name=".Sma10BhsJawa" />
+        <activity android:name=".Sma10BhsInggris" />
+        <activity android:name=".Sma10BhsIndo" />
+        <activity android:name=".Sma10Akuntansi" />
+        <activity android:name=".SmpIXPkn" />
+        <activity android:name=".SmpIXPjok" />
+        <activity android:name=".SmpIXPai" />
+        <activity android:name=".SmpIXMatematika" />
+        <activity android:name=".SmpIXIps" />
+        <activity android:name=".SmpIXIpa" />
+        <activity android:name=".SmpIXBhsInggris" />
+        <activity android:name=".SmpIXBhsIndo" />
+        <activity android:name=".SmpVIIIPkn" />
+        <activity android:name=".SmpVIIIPjok" />
+        <activity android:name=".SmpVIIIPai" />
+        <activity android:name=".SmpVIIIMatematika" />
+        <activity android:name=".SmpVIII_Ips" />
+        <activity android:name=".SmpVIIIBhsInggris" />
+        <activity android:name=".SmpVIII_Ipa" />
+        <activity android:name=".SmpVIIIBhsIndo" />
+        <activity android:name=".SmpVIIPkn" />
+        <activity android:name=".SmpVIIPjok" />
+        <activity android:name=".SmpVIIPai" />
+        <activity android:name=".SmpVIIMatematika" />
+        <activity android:name=".SmpVII_Ips" />
+        <activity android:name=".SmpVII_Ipa" />
+        <activity android:name=".SmpVIIBhsInggris" />
+        <activity android:name=".SmpVIIBhsIndo" />
+        <activity android:name=".Sd6Pkn" />
+        <activity android:name=".Sd6Pjok" />
+        <activity android:name=".Sd6Pai" />
+        <activity android:name=".Sd6Matematika" />
+        <activity android:name=".Sd6Ips" />
+        <activity android:name=".Sd6Ipa" />
+        <activity android:name=".Sd6BhsInggris" />
+        <activity android:name=".Sd6BhsIndo" />
+        <activity android:name=".Sd5Pkn" />
+        <activity android:name=".Sd5Pjok" />
+        <activity android:name=".Sd5Pai" />
+        <activity android:name=".Sd5Matematika" />
+        <activity android:name=".Sd5Ips" />
+        <activity android:name=".Sd5Ipa" />
+        <activity android:name=".Sd5BhsInggris" />
+        <activity android:name=".Sd5BhsIndo" />
+        <activity android:name=".Sd4Pkn" />
+        <activity android:name=".Sd4Pjok" />
+        <activity android:name=".Sd4Pai" />
+        <activity android:name=".Sd4Matematika" />
+        <activity android:name=".Sd4Ips" />
+        <activity android:name=".Sd4Ipa" />
+        <activity android:name=".Sd4BhsInggris" />
+        <activity android:name=".Sd4BhsIndo" />
+        <activity android:name=".Sd3Pkn" />
+        <activity android:name=".Sd3Pjok" />
+        <activity android:name=".Sd3Pai" />
+        <activity android:name=".Sd3Matematika" />
+        <activity android:name=".Sd3Ips" />
+        <activity android:name=".Sd3Ipa" />
+        <activity android:name=".Sd3BhsInggris" />
+        <activity android:name=".Sd2Pkn" />
+        <activity android:name=".Sd3BhsIndo" />
+        <activity android:name=".Sd2Pjok" />
+        <activity android:name=".Sd2Pai" />
+        <activity android:name=".Sd2Matematika" />
+        <activity android:name=".Sd2Ips" />
+        <activity android:name=".Sd2Ipa" />
+        <activity android:name=".Sd2BhsInggris" />
+        <activity android:name=".Sd2BhsIndo" />
+        <activity android:name=".Sd1Pkn" />
+        <activity android:name=".Sd1Pjok" />
+        <activity android:name=".Sd1Pai" />
+        <activity android:name=".Sd1Matematika" />
+        <activity android:name=".Sd1Ips" />
+        <activity android:name=".Sd1Ipa" />
+        <activity android:name=".Sd1BhsInggris" />
+        <activity android:name=".Sd1BhsIndonesia" />
+        <activity android:name=".Paud5Paud" />
+        <activity android:name=".Paud34Paud" />
+        <activity android:name=".Paud02Paud" />
+        <activity
+            android:name=".DefaultDefault"
+            android:label="Default"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SlbIpa"
+            android:label="SLB Ipa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SlbDefault"
+            android:label="SLB Default"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BahasaSastra"
+            android:label="Karya Bahasa Dan Sastra"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".KaryaKomunitas"
+            android:label="Karya Komunitas"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".KaryaGuru"
+            android:label="Karya Guru"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Angkasa"
+            android:label="Wahana Angkasa"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PetaBudaya"
+            android:label="Peta Budaya"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Keprofesian"
+            android:label="Keprofesian"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BukuSekolah"
+            android:label="Buku Sekolah"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".KelasDigital"
+            android:label="Kelas Digital"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BankSoal"
+            android:label="Bank Soal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LabMaya"
+            android:label="Lab Maya"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SumberBelajar"
+            android:label="Sumber Belajar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity android:name=".activitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
